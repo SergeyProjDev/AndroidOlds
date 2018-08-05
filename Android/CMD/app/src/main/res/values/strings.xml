@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">CMD</string>
+    <string name="start_command"><![CDATA[>]]></string>
+    <string name="title_activity_commands_help">CommandsHelp</string>
+    <string name="documentation">
+        <pre>>cls - clean console \n>start app_name - launch app \n>battery lvl - percent level \n>phone country - country code in which the operator is registered \n>phone id - device id \n>phone operator - operator name \n>phone roaming - true if in roaming \n>android version - sdkVersion \n>android rotation
+        </pre>
+    </string>
+</resources>

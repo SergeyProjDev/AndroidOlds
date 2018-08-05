@@ -1,0 +1,228 @@
+﻿начинаться - beginnen
+начинать - anfangen
+появляться - erscheinen
+опаздывать - sich verspäten
+продолжать - fortsetzen
+занимать время -  in Anspruch nehmen
+откладывать -  verschieben
+завершать -  beenden
+прекращать -  einstellen
+переставать -  aufhören
+двигаться - sich bewegen
+останавливаться - stehenbleiben
+поднимать - heben
+поднимать - hochheben
+подниматься - steigen
+опускать - senken
+выходить - hinausgehen
+входить - eintreten
+отправляться - sich begeben/ abfahren
+пересекать - überqueren
+идти вдоль - gehen entlang
+следовать - folgen
+повернуть налево - biegen (nach links)
+прибывать - ankommen
+возвращаться - zurückkommen
+идти - gehen
+приходить - kommen
+бежать - laufen/ rennen
+летать - fliegen
+скакать - reiten
+быть -  sein
+иметь - haben
+имеется - es gibt
+присутствовать - anwesend sein/ beiwohnen
+быть достаточным - genügen/ ausreichen
+отсутствовать - fehlen/ abwesend sein
+быть пустым - leer sein
+собирать - sammeln
+добавлять - zufügen
+наполнять - füllen
+быть полным - voll sein
+сокращать - reduzieren/ kürzen
+исключать - ausschließen
+тратить - ausgeben
+портить - verderben
+оставаться - übrigbleiben
+удерживать - behalten
+владеть - besitzen
+принадлежать - gehören
+содержать - enthalten
+класть - legen
+лежать - liegen
+сидеть - sitzen
+садиться - sich setzen
+стоять - stehen
+ставить - stellen
+висеть - hängen
+находиться  - liegen
+жить - leben
+родиться - geboren sein
+работать - arbeiten
+зарабатывать - verdienen
+есть - essen
+пить - trinken
+печь - backen
+жарить - braten
+носить - tragen/ anhaben
+надевать - anziehen
+стирать - waschen (Wäsche)
+гладить - bügeln
+ложиться спать - zu Bett gehen
+спать - schlafen
+будить - wecken
+просыпаться - erwachen
+вставать - aufstehen
+болеть - krank sein
+лечить - ärztlich behandeln
+выздоравливать  - genesen 
+любить - gern haben
+любить - lieben
+нравиться - gefallen
+хотеть - wollen
+предпочитать - vorziehen
+восхищаться - bewundern
+ненавидеть - hassen
+обвинять - anschuldigen
+страдать - leiden
+вынести - aushalten
+плакать  - weinen
+утешать - trösten
+успокоиться - sich beruhigen
+улыбаться - lächeln
+смеяться - lachen
+наслаждаться - genießen
+радоваться - sich freuen
+быть уверенным - sicher sein
+сомневаться - zweifeln
+усталый - müde
+волновать - beunruhigen
+пугать - erschrecken
+удивлять - wundern/ überraschen
+обижать - kränken
+оскорблять - beleidigen
+быть сердитым  - böse sein
+видеть - sehen
+смотреть - gucken
+слушать - zuhören
+слышать - hören
+чувствовать - fühlen/ empfinden
+помнить - sich erinnern (an A)
+забывать - vergessen
+узнавать - erkennen
+различать - unterscheiden
+читать - lesen
+писать - schreiben
+считать - zählen
+вычислять - rechnen
+прибавлять - addieren/ zufügen
+вычитать - abziehen
+умножать - multiplizieren
+делить - dividieren
+думать - denken
+решать - entscheiden/ beschließen
+передумать - ändere deine Meinung
+делать - tun
+делать - machen
+выполнять - ausführen/ erfüllen
+готовить - vorbereiten
+прятать - verstecken
+искать - suchen
+находить - finden
+брать - nehmen
+держать - halten
+толкать - stoßen
+тянуть - ziehen
+бросать - schmeißen
+открывать - öffnen/ aufmachen
+закрывать - schließen
+присоединять - anschließen
+отсоединять - trennen
+развязать - lösen/ loslösen
+резать - schneiden
+лить - gießen
+проливать - verschütten
+сушить  - trocknen
+говорить - sprechen
+сказать - sagen
+обращаться - sich wenden (an А)
+спрашивать - fragen
+просить - bitten
+отвечать - antworten
+разрешать - erlauben
+запрещать - verbieten
+советовать  - raten/ empfehlen
+предупреждать - warnen
+предлагать - anbieten
+давать - geben
+покупать - kaufen
+продавать - verkaufen
+брать взаймы - leihen/ borgen
+давать на время - verleihen
+дарить - schenken
+приглашать - einladen
+посещать - besuchen
+тепло встречать - willkommen heißen
+приветствовать - willkommen heißen
+представлять - vorstellen
+дарить - schenken
+знакомиться - kennenlernen
+быть знакомым - bekannt sein
+беспокоить - stören
+беспокоить - belästigen
+извинять - entschuldigen
+прощать - verzeihen
+извиняться - sich entschuldigen
+благодарить  - danken
+Начало - Beginn
+Продолжение - Fortsetzung
+Завершение - Beendigung
+движениe - Bewegung
+положение - Lage/ Position
+Жить - Leben
+Работать - Arbeiten
+Есть - Essen
+пить - trinken
+Одеваться - Sich kleiden
+Спать - Schlafen
+приводить себя в порядок - Morgentoilette 
+Болеть - Krank sein
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

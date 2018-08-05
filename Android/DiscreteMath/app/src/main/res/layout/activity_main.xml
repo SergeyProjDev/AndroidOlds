@@ -1,0 +1,1074 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/binary_code_background">
+
+    <include
+        layout="@layout/action_bar"
+        android:id="@+id/action_bar"/>
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/relativeLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:background="@android:color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/action_bar">
+
+        <TableLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/action_bar"
+            tools:ignore="NotSibling">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_margin="1dp"
+                    android:width="50dp"
+                    android:height="20dp"
+                    android:background="@color/header"
+                    android:gravity="center"
+                    android:text="X1"
+                    android:textColor="@android:color/black"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:layout_margin="1dp"
+                    android:width="50dp"
+                    android:height="20dp"
+                    android:background="@color/header"
+                    android:gravity="center"
+                    android:text="X2"
+                    android:textColor="@android:color/black"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:layout_margin="1dp"
+                    android:width="50dp"
+                    android:height="20dp"
+                    android:background="@color/header"
+                    android:gravity="center"
+                    android:text="X3"
+                    android:textColor="@android:color/black"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:layout_margin="1dp"
+                    android:width="50dp"
+                    android:height="20dp"
+                    android:background="@color/header"
+                    android:gravity="center"
+                    android:text="X4"
+                    android:textColor="@android:color/black"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:layout_margin="1dp"
+                    android:width="120dp"
+                    android:height="20dp"
+                    android:background="@color/header"
+                    android:gravity="center"
+                    android:text="f (X1, X2, X3, X4)"
+                    android:textColor="@android:color/black"
+                    android:textSize="14sp" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_margin="1dp"
+                    android:width="50dp"
+                    android:height="20dp"
+                    android:background="@android:color/white"
+                    android:gravity="center"
+                    android:text="0"
+                    android:textColor="@android:color/black"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:layout_margin="1dp"
+                    android:width="50dp"
+                    android:height="20dp"
+                    android:background="@android:color/white"
+                    android:gravity="center"
+                    android:text="0"
+                    android:textColor="@android:color/black"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:layout_margin="1dp"
+                    android:width="50dp"
+                    android:height="20dp"
+                    android:background="@android:color/white"
+                    android:gravity="center"
+                    android:text="0"
+                    android:textColor="@android:color/black"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:layout_margin="1dp"
+                    android:width="50dp"
+                    android:height="20dp"
+                    android:background="@android:color/white"
+                    android:gravity="center"
+                    android:text="0"
+                    android:textColor="@android:color/black"
+                    android:textSize="14sp" />
+
+                <EditText
+                    android:id="@+id/editText1"
+                    android:layout_margin="1dp"
+                    android:width="120dp"
+                    android:height="20dp"
+                    android:background="@android:color/white"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:gravity="center"
+                    android:inputType="numberSigned"
+                    android:textColor="@android:color/black"
+                    android:textSize="14sp" />
+            </TableRow>
+
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_margin="1dp"
+                    android:width="50dp"
+                    android:height="20dp"
+                    android:background="@android:color/white"
+                    android:gravity="center"
+                    android:text="0"
+                    android:textColor="@android:color/black"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:layout_margin="1dp"
+                    android:width="50dp"
+                    android:height="20dp"
+                    android:background="@android:color/white"
+                    android:gravity="center"
+                    android:text="0"
+                    android:textColor="@android:color/black"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:layout_margin="1dp"
+                    android:width="50dp"
+                    android:height="20dp"
+                    android:background="@android:color/white"
+                    android:gravity="center"
+                    android:text="0"
+                    android:textColor="@android:color/black"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:layout_margin="1dp"
+                    android:width="50dp"
+                    android:height="20dp"
+                    android:background="@android:color/white"
+                    android:gravity="center"
+                    android:text="1"
+                    android:textColor="@android:color/black"
+                    android:textSize="14sp" />
+
+                <EditText
+                    android:id="@+id/editText2"
+                    android:layout_margin="1dp"
+                    android:width="120dp"
+                    android:height="20dp"
+                    android:background="@android:color/white"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:gravity="center"
+                    android:inputType="numberSigned"
+                    android:textColor="@android:color/black"
+                    android:textSize="14sp" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_margin="1dp"
+                    android:width="50dp"
+                    android:height="20dp"
+                    android:background="@android:color/white"
+                    android:gravity="center"
+                    android:text="0"
+                    android:textColor="@android:color/black"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:layout_margin="1dp"
+                    android:width="50dp"
+                    android:height="20dp"
+                    android:background="@android:color/white"
+                    android:gravity="center"
+                    android:text="0"
+                    android:textColor="@android:color/black"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:layout_margin="1dp"
+                    android:width="50dp"
+                    android:height="20dp"
+                    android:background="@android:color/white"
+                    android:gravity="center"
+                    android:text="1"
+                    android:textColor="@android:color/black"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:layout_margin="1dp"
+                    android:width="50dp"
+                    android:height="20dp"
+                    android:background="@android:color/white"
+                    android:gravity="center"
+                    android:text="0"
+                    android:textColor="@android:color/black"
+                    android:textSize="14sp" />
+
+                <EditText
+                    android:id="@+id/editText3"
+                    android:layout_margin="1dp"
+                    android:width="120dp"
+                    android:height="20dp"
+                    android:background="@android:color/white"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:gravity="center"
+                    android:inputType="numberSigned"
+                    android:textColor="@android:color/black"
+                    android:textSize="14sp" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_margin="1dp"
+                    android:width="50dp"
+                    android:height="20dp"
+                    android:background="@android:color/white"
+                    android:gravity="center"
+                    android:text="0"
+                    android:textColor="@android:color/black"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:layout_margin="1dp"
+                    android:width="50dp"
+                    android:height="20dp"
+                    android:background="@android:color/white"
+                    android:gravity="center"
+                    android:text="0"
+                    android:textColor="@android:color/black"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:layout_margin="1dp"
+                    android:width="50dp"
+                    android:height="20dp"
+                    android:background="@android:color/white"
+                    android:gravity="center"
+                    android:text="1"
+                    android:textColor="@android:color/black"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:layout_margin="1dp"
+                    android:width="50dp"
+                    android:height="20dp"
+                    android:background="@android:color/white"
+                    android:gravity="center"
+                    android:text="1"
+                    android:textColor="@android:color/black"
+                    android:textSize="14sp" />
+
+                <EditText
+                    android:id="@+id/editText4"
+                    android:layout_margin="1dp"
+                    android:width="120dp"
+                    android:height="20dp"
+                    android:background="@android:color/white"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:gravity="center"
+                    android:inputType="numberSigned"
+                    android:textColor="@android:color/black"
+                    android:textSize="14sp" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_margin="1dp"
+                    android:width="50dp"
+                    android:height="20dp"
+                    android:background="@android:color/white"
+                    android:gravity="center"
+                    android:text="0"
+                    android:textColor="@android:color/black"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:layout_margin="1dp"
+                    android:width="50dp"
+                    android:height="20dp"
+                    android:background="@android:color/white"
+                    android:gravity="center"
+                    android:text="1"
+                    android:textColor="@android:color/black"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:layout_margin="1dp"
+                    android:width="50dp"
+                    android:height="20dp"
+                    android:background="@android:color/white"
+                    android:gravity="center"
+                    android:text="0"
+                    android:textColor="@android:color/black"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:layout_margin="1dp"
+                    android:width="50dp"
+                    android:height="20dp"
+                    android:background="@android:color/white"
+                    android:gravity="center"
+                    android:text="0"
+                    android:textColor="@android:color/black"
+                    android:textSize="14sp" />
+
+                <EditText
+                    android:id="@+id/editText5"
+                    android:layout_margin="1dp"
+                    android:width="120dp"
+                    android:height="20dp"
+                    android:background="@android:color/white"
+                    android:gravity="center"
+                    android:inputType="numberSigned"
+                    android:textColor="@android:color/black"
+                    android:textSize="14sp" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_margin="1dp"
+                    android:width="50dp"
+                    android:height="20dp"
+                    android:background="@android:color/white"
+                    android:gravity="center"
+                    android:text="0"
+                    android:textColor="@android:color/black"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:layout_margin="1dp"
+                    android:width="50dp"
+                    android:height="20dp"
+                    android:background="@android:color/white"
+                    android:gravity="center"
+                    android:text="1"
+                    android:textColor="@android:color/black"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:layout_margin="1dp"
+                    android:width="50dp"
+                    android:height="20dp"
+                    android:background="@android:color/white"
+                    android:gravity="center"
+                    android:text="0"
+                    android:textColor="@android:color/black"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:layout_margin="1dp"
+                    android:width="50dp"
+                    android:height="20dp"
+                    android:background="@android:color/white"
+                    android:gravity="center"
+                    android:text="1"
+                    android:textColor="@android:color/black"
+                    android:textSize="14sp" />
+
+                <EditText
+                    android:id="@+id/editText6"
+                    android:layout_margin="1dp"
+                    android:width="120dp"
+                    android:height="20dp"
+                    android:background="@android:color/white"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:gravity="center"
+                    android:inputType="numberSigned"
+                    android:textColor="@android:color/black"
+                    android:textSize="14sp" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_margin="1dp"
+                    android:width="50dp"
+                    android:height="20dp"
+                    android:background="@android:color/white"
+                    android:gravity="center"
+                    android:text="0"
+                    android:textColor="@android:color/black"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:layout_margin="1dp"
+                    android:width="50dp"
+                    android:height="20dp"
+                    android:background="@android:color/white"
+                    android:gravity="center"
+                    android:text="1"
+                    android:textColor="@android:color/black"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:layout_margin="1dp"
+                    android:width="50dp"
+                    android:height="20dp"
+                    android:background="@android:color/white"
+                    android:gravity="center"
+                    android:text="1"
+                    android:textColor="@android:color/black"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:layout_margin="1dp"
+                    android:width="50dp"
+                    android:height="20dp"
+                    android:background="@android:color/white"
+                    android:gravity="center"
+                    android:text="0"
+                    android:textColor="@android:color/black"
+                    android:textSize="14sp" />
+
+                <EditText
+                    android:id="@+id/editText7"
+                    android:layout_margin="1dp"
+                    android:width="120dp"
+                    android:height="20dp"
+                    android:background="@android:color/white"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:gravity="center"
+                    android:inputType="numberSigned"
+                    android:textColor="@android:color/black"
+                    android:textSize="14sp" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_margin="1dp"
+                    android:width="50dp"
+                    android:height="20dp"
+                    android:background="@android:color/white"
+                    android:gravity="center"
+                    android:text="0"
+                    android:textColor="@android:color/black"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:layout_margin="1dp"
+                    android:width="50dp"
+                    android:height="20dp"
+                    android:background="@android:color/white"
+                    android:gravity="center"
+                    android:text="1"
+                    android:textColor="@android:color/black"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:layout_margin="1dp"
+                    android:width="50dp"
+                    android:height="20dp"
+                    android:background="@android:color/white"
+                    android:gravity="center"
+                    android:text="1"
+                    android:textColor="@android:color/black"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:layout_margin="1dp"
+                    android:width="50dp"
+                    android:height="20dp"
+                    android:background="@android:color/white"
+                    android:gravity="center"
+                    android:text="1"
+                    android:textColor="@android:color/black"
+                    android:textSize="14sp" />
+
+                <EditText
+                    android:id="@+id/editText8"
+                    android:layout_margin="1dp"
+                    android:width="120dp"
+                    android:height="20dp"
+                    android:background="@android:color/white"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:gravity="center"
+                    android:inputType="numberSigned"
+                    android:textColor="@android:color/black"
+                    android:textSize="14sp" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_margin="1dp"
+                    android:width="50dp"
+                    android:height="20dp"
+                    android:background="@android:color/white"
+                    android:gravity="center"
+                    android:text="1"
+                    android:textColor="@android:color/black"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:layout_margin="1dp"
+                    android:width="50dp"
+                    android:height="20dp"
+                    android:background="@android:color/white"
+                    android:gravity="center"
+                    android:text="0"
+                    android:textColor="@android:color/black"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:layout_margin="1dp"
+                    android:width="50dp"
+                    android:height="20dp"
+                    android:background="@android:color/white"
+                    android:gravity="center"
+                    android:text="0"
+                    android:textColor="@android:color/black"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:layout_margin="1dp"
+                    android:width="50dp"
+                    android:height="20dp"
+                    android:background="@android:color/white"
+                    android:gravity="center"
+                    android:text="0"
+                    android:textColor="@android:color/black"
+                    android:textSize="14sp" />
+
+                <EditText
+                    android:id="@+id/editText9"
+                    android:layout_margin="1dp"
+                    android:width="120dp"
+                    android:height="20dp"
+                    android:background="@android:color/white"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:gravity="center"
+                    android:inputType="numberSigned"
+                    android:textColor="@android:color/black"
+                    android:textSize="14sp" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_margin="1dp"
+                    android:width="50dp"
+                    android:height="20dp"
+                    android:background="@android:color/white"
+                    android:gravity="center"
+                    android:text="1"
+                    android:textColor="@android:color/black"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:layout_margin="1dp"
+                    android:width="50dp"
+                    android:height="20dp"
+                    android:background="@android:color/white"
+                    android:gravity="center"
+                    android:text="0"
+                    android:textColor="@android:color/black"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:layout_margin="1dp"
+                    android:width="50dp"
+                    android:height="20dp"
+                    android:background="@android:color/white"
+                    android:gravity="center"
+                    android:text="0"
+                    android:textColor="@android:color/black"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:layout_margin="1dp"
+                    android:width="50dp"
+                    android:height="20dp"
+                    android:background="@android:color/white"
+                    android:gravity="center"
+                    android:text="1"
+                    android:textColor="@android:color/black"
+                    android:textSize="14sp" />
+
+                <EditText
+                    android:id="@+id/editText10"
+                    android:layout_margin="1dp"
+                    android:width="120dp"
+                    android:height="20dp"
+                    android:background="@android:color/white"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:gravity="center"
+                    android:inputType="numberSigned"
+                    android:textColor="@android:color/black"
+                    android:textSize="14sp" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_margin="1dp"
+                    android:width="50dp"
+                    android:height="20dp"
+                    android:background="@android:color/white"
+                    android:gravity="center"
+                    android:text="1"
+                    android:textColor="@android:color/black"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:layout_margin="1dp"
+                    android:width="50dp"
+                    android:height="20dp"
+                    android:background="@android:color/white"
+                    android:gravity="center"
+                    android:text="0"
+                    android:textColor="@android:color/black"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:layout_margin="1dp"
+                    android:width="50dp"
+                    android:height="20dp"
+                    android:background="@android:color/white"
+                    android:gravity="center"
+                    android:text="1"
+                    android:textColor="@android:color/black"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:layout_margin="1dp"
+                    android:width="50dp"
+                    android:height="20dp"
+                    android:background="@android:color/white"
+                    android:gravity="center"
+                    android:text="0"
+                    android:textColor="@android:color/black"
+                    android:textSize="14sp" />
+
+                <EditText
+                    android:id="@+id/editText11"
+                    android:layout_height="22dp"
+                    android:layout_margin="1dp"
+                    android:width="120dp"
+                    android:height="20dp"
+                    android:background="@android:color/white"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:gravity="center"
+                    android:inputType="numberSigned"
+                    android:textColor="@android:color/black"
+                    android:textSize="14sp" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_margin="1dp"
+                    android:width="50dp"
+                    android:height="20dp"
+                    android:background="@android:color/white"
+                    android:gravity="center"
+                    android:text="1"
+                    android:textColor="@android:color/black"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:layout_margin="1dp"
+                    android:width="50dp"
+                    android:height="20dp"
+                    android:background="@android:color/white"
+                    android:gravity="center"
+                    android:text="0"
+                    android:textColor="@android:color/black"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:layout_margin="1dp"
+                    android:width="50dp"
+                    android:height="20dp"
+                    android:background="@android:color/white"
+                    android:gravity="center"
+                    android:text="1"
+                    android:textColor="@android:color/black"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:layout_margin="1dp"
+                    android:width="50dp"
+                    android:height="20dp"
+                    android:background="@android:color/white"
+                    android:gravity="center"
+                    android:text="1"
+                    android:textColor="@android:color/black"
+                    android:textSize="14sp" />
+
+                <EditText
+                    android:id="@+id/editText12"
+                    android:layout_margin="1dp"
+                    android:width="120dp"
+                    android:height="20dp"
+                    android:background="@android:color/white"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:gravity="center"
+                    android:inputType="numberSigned"
+                    android:textColor="@android:color/black"
+                    android:textSize="14sp" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_margin="1dp"
+                    android:width="50dp"
+                    android:height="20dp"
+                    android:background="@android:color/white"
+                    android:gravity="center"
+                    android:text="1"
+                    android:textColor="@android:color/black"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:layout_margin="1dp"
+                    android:width="50dp"
+                    android:height="20dp"
+                    android:background="@android:color/white"
+                    android:gravity="center"
+                    android:text="1"
+                    android:textColor="@android:color/black"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:layout_margin="1dp"
+                    android:width="50dp"
+                    android:height="20dp"
+                    android:background="@android:color/white"
+                    android:gravity="center"
+                    android:text="0"
+                    android:textColor="@android:color/black"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:layout_margin="1dp"
+                    android:width="50dp"
+                    android:height="20dp"
+                    android:background="@android:color/white"
+                    android:gravity="center"
+                    android:text="0"
+                    android:textColor="@android:color/black"
+                    android:textSize="14sp" />
+
+                <EditText
+                    android:id="@+id/editText13"
+                    android:layout_margin="1dp"
+                    android:width="120dp"
+                    android:height="20dp"
+                    android:background="@android:color/white"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:gravity="center"
+                    android:inputType="numberSigned"
+                    android:textColor="@android:color/black"
+                    android:textSize="14sp" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_margin="1dp"
+                    android:width="50dp"
+                    android:height="20dp"
+                    android:background="@android:color/white"
+                    android:gravity="center"
+                    android:text="1"
+                    android:textColor="@android:color/black"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:layout_margin="1dp"
+                    android:width="50dp"
+                    android:height="20dp"
+                    android:background="@android:color/white"
+                    android:gravity="center"
+                    android:text="1"
+                    android:textColor="@android:color/black"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:layout_margin="1dp"
+                    android:width="50dp"
+                    android:height="20dp"
+                    android:background="@android:color/white"
+                    android:gravity="center"
+                    android:text="0"
+                    android:textColor="@android:color/black"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:layout_margin="1dp"
+                    android:width="50dp"
+                    android:height="20dp"
+                    android:background="@android:color/white"
+                    android:gravity="center"
+                    android:text="1"
+                    android:textColor="@android:color/black"
+                    android:textSize="14sp" />
+
+                <EditText
+                    android:id="@+id/editText14"
+                    android:layout_margin="1dp"
+                    android:width="120dp"
+                    android:height="20dp"
+                    android:background="@android:color/white"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:gravity="center"
+                    android:inputType="numberSigned"
+                    android:textColor="@android:color/black"
+                    android:textSize="14sp" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_margin="1dp"
+                    android:width="50dp"
+                    android:height="20dp"
+                    android:background="@android:color/white"
+                    android:gravity="center"
+                    android:text="1"
+                    android:textColor="@android:color/black"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:layout_margin="1dp"
+                    android:width="50dp"
+                    android:height="20dp"
+                    android:background="@android:color/white"
+                    android:gravity="center"
+                    android:text="1"
+                    android:textColor="@android:color/black"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:layout_margin="1dp"
+                    android:width="50dp"
+                    android:height="20dp"
+                    android:background="@android:color/white"
+                    android:gravity="center"
+                    android:text="1"
+                    android:textColor="@android:color/black"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:layout_margin="1dp"
+                    android:width="50dp"
+                    android:height="20dp"
+                    android:background="@android:color/white"
+                    android:gravity="center"
+                    android:text="0"
+                    android:textColor="@android:color/black"
+                    android:textSize="14sp" />
+
+                <EditText
+                    android:id="@+id/editText15"
+                    android:layout_margin="1dp"
+                    android:width="120dp"
+                    android:height="20dp"
+                    android:background="@android:color/white"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:gravity="center"
+                    android:inputType="numberSigned"
+                    android:textColor="@android:color/black"
+                    android:textSize="14sp" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_margin="1dp"
+                    android:width="50dp"
+                    android:height="20dp"
+                    android:background="@android:color/white"
+                    android:gravity="center"
+                    android:text="1"
+                    android:textColor="@android:color/black"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:layout_margin="1dp"
+                    android:width="50dp"
+                    android:height="20dp"
+                    android:background="@android:color/white"
+                    android:gravity="center"
+                    android:text="1"
+                    android:textColor="@android:color/black"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:layout_margin="1dp"
+                    android:width="50dp"
+                    android:height="20dp"
+                    android:background="@android:color/white"
+                    android:gravity="center"
+                    android:text="1"
+                    android:textColor="@android:color/black"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:layout_margin="1dp"
+                    android:width="50dp"
+                    android:height="20dp"
+                    android:background="@android:color/white"
+                    android:gravity="center"
+                    android:text="1"
+                    android:textColor="@android:color/black"
+                    android:textSize="14sp" />
+
+                <EditText
+                    android:id="@+id/editText16"
+                    android:layout_margin="1dp"
+                    android:width="120dp"
+                    android:height="20dp"
+                    android:background="@android:color/white"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:gravity="center"
+                    android:inputType="numberSigned"
+                    android:textColor="@android:color/black"
+                    android:textSize="14sp" />
+            </TableRow>
+        </TableLayout>
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="300dp"
+        android:layout_height="80dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/relativeLayout"
+        android:onClick="readData"
+        android:background="@drawable/button_count"
+        android:textSize="20sp"
+        />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toBottomOf="@+id/action_bar"
+        app:layout_constraintEnd_toEndOf="@+id/action_bar"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@android:drawable/ic_menu_info_details"
+        android:onClick="showAboutPage"/>
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toBottomOf="@+id/action_bar"
+        app:layout_constraintEnd_toStartOf="@+id/imageView"
+        app:layout_constraintTop_toTopOf="@+id/action_bar"
+        app:srcCompat="@drawable/backspace"
+        android:onClick="cleanInp"/>
+
+
+</android.support.constraint.ConstraintLayout>

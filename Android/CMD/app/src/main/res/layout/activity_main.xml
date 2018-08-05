@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <include
+        layout="@layout/action_bar"
+        android:id="@+id/action_bar"/>
+
+    <FrameLayout
+        android:layout_marginTop="50dp"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@color/black">
+
+
+        <EditText
+            android:id="@+id/editText"
+            android:layout_width="fill_parent"
+            android:layout_height="100dp"
+            android:ems="10"
+            android:inputType="textMultiLine"
+            android:gravity="top"
+            android:textColor="@color/colorText"
+            android:text="@string/start_command"
+            android:padding="10dp"
+            android:imeOptions="actionDone"
+            android:textSize="16sp"/>
+        <EditText
+            android:id="@+id/editText2"
+            android:layout_marginTop="100dp"
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:textColor="@color/colorText"
+            android:padding="10dp"
+            android:textSize="12sp"
+            android:layout_gravity="top"
+            android:gravity="top"
+            android:textIsSelectable="false"
+            android:selectAllOnFocus="false"/>
+
+    </FrameLayout>
+</android.support.constraint.ConstraintLayout>

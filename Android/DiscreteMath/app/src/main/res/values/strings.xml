@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Discrete Math</string>
+    <string name="information"><b><u><pre>       Метод Квайна</pre></u></b> "\n"
+        В программе реализована таблица истинности, которая заполняется нулями, единицами или прочерками (неопределенными символами).
+        В результате работы программы мы получаем сокращенную ДНФ.</string>
+    <string name="f1_Name">Ребра куба</string>
+    <string name="f2_Name">Грани куба</string>
+    <string name="f3_Name">Стороны куба</string>
+    <string name="NE_Po_Planu">Что-то пошло не по плану!</string>
+    <string name="DNF_sokr">ДНФ(сокр) = </string>
+    <string name="no_Answer">Не существует</string>
+</resources>

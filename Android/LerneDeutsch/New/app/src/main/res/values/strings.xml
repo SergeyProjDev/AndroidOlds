@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">We learn words</string>
+    <string name="title_activity_settings">SettingsActivity</string>
+    <string name="settings1">Paste the address into the file with the words. After that, words from your file will appear in the program.</string>
+    <string name="hint_setting1">/storage/emulated/0/Documents/words.txt</string>
+    <string name="updated">Settings were updated</string>
+    <string name="toSave">data.txt</string>
+</resources>

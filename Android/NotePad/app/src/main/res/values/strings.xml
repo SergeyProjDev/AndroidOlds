@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">NotePad</string>
+    <string name="text">text</string>
+    <string name="seyHello">Добро пожаловать в текстовый редактор! (by Sergey)</string>
+    <string name="toSave">myFile.txt</string>
+    <string name="wasCopied">Текст скопирован</string>
+    <string name="pasteNothing">Буфер обмена пуст</string>
+    <string name="fileSaved">Файл сохранен</string>
+    <string name="fileOpened">Файл открыт</string>
+</resources>

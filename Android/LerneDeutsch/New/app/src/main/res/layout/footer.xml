@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="bottom"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:background="@color/colorFooter"
+        app:contentInsetStart="0dp"
+        app:contentInsetEnd="0dp"
+        android:contentInsetStart="0dp"
+        android:contentInsetLeft="0dp"
+        tools:ignore="UnusedAttribute"> <!--Самая важная вещь!!!-->
+
+
+
+
+        <FrameLayout
+            android:layout_width="fill_parent"
+            android:layout_height="50dp">
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="50dp">
+
+                <TextView
+                    android:onClick="showSettingsActivity"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:text="Settings"
+                    android:textColor="#fff"
+                    android:textSize="25sp"
+                    android:layout_marginTop="5dp"
+                    android:textAlignment="center"
+                    android:fontFamily="casual"/>
+
+            </RelativeLayout>
+            <View android:layout_width="match_parent"
+                android:layout_height="15dp"
+                android:background="@drawable/toolbar_dropshadow" /> <!--Тень-->
+        </FrameLayout>
+
+
+    </android.support.v7.widget.Toolbar>
+</LinearLayout>

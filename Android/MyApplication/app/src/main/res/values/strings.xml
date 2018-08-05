@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">MyApplication</string>
+    <string name="s1">   Нажмите "Вперед", чтоб начать игру.</string>
+</resources>
